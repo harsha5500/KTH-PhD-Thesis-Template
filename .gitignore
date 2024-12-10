@@ -1,0 +1,16 @@
+# Standard
+.DS_Store
+*.code-workspace
+
+# Tex
+*.aux
+*.toc
+*.bbl
+*.run.xml
+*.acn
+*.bcf
+*.blg
+*.ist
+*.pdf
+*.glo
+*.log

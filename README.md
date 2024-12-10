@@ -8,8 +8,25 @@ This template uses XELATEX. Please change the latex compiler to XELATEX in the m
 
 Please submit any changes on the Github page. 
 
+## Usage
+
+1. To compile:
+    ```sh
+        make all
+    ```
+
+2. To clean all generated files:
+    ```sh
+        make clean
+    ```
+3. To compile nad retain only the PDF file
+    ```sh
+        make pdf
+    ```
+
 ## Changelog
 - 2024-10-28: First version uploaded to github.
+- 2024-12-10: Added a Makefile.
 
 ## Todo
 1. Test for working with miktex and texlive in Linux, Macos and Windows.

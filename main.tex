@@ -12,27 +12,44 @@
 %-----------------------------------------------------------------------
 % SETTING FONTS
 %-----------------------------------------------------------------------
-\usepackage[T1]{fontenc} % Enable T1 font encoding.
 \usepackage{fontspec} % Required to specify custom fonts.
+\usepackage[T1]{fontenc} % Enable T1 font encoding.
+
+%-----------------------------------------------------------------------
+% ***** OPEN FONT SUBSTITUTES. COMMENT HERE AND UNCOMMENT NEXT SECTION FOR LICENSED FONT
+%-----------------------------------------------------------------------
+\usepackage{libertine}
+\usepackage{libertinust1math}
+\usepackage[sfdefault]{arimo}
+
+%-----------------------------------------------------------------------
+% ***** UNCOMMENT THE FOLLOWING FOR USING LICENSED FONTS ******
+% ***** ASSUMPTION GeorgiaPro folder and Figtree-Medium folder are in current directory.
+% ***** NOTE: All font files have to be named 'GeorgiaPro'-'variant'-'.ttf' 
+% ***** NOTE: ONLY TTF FONTS.  
+%-----------------------------------------------------------------------
+
 % Most normal text is GeorgiaPro
-\setmainfont{GeorgiaPro}[
-    Path= ./GeorgiaProFonts/,
-    Extension = .ttf,
-    UprightFont=*-Regular,
-    BoldFont=*-Bold,
-    ItalicFont=*-Italic,
-    BoldItalicFont=*-BoldItalic
-]
+% \setmainfont{GeorgiaPro}[
+%     Path= ./GeorgiaProFonts/,
+%     Extension = .ttf,
+%     UprightFont=*-Regular,
+%     BoldFont=*-Bold,
+%     ItalicFont=*-Italic,
+%     BoldItalicFont=*-BoldItalic
+% ]
 
 % Chapter Headings are in Figtree Medium
-\setsansfont{Figtree-Medium}[
-    Path=./FigtreeFonts/,
-    Extension = .ttf,
-    UprightFont=Figtree-Medium,
-    BoldFont=Figtree-Bold,
-    ItalicFont=Figtree-Medium-Italic,
-    BoldItalicFont=Figtree-BoldItalic
-]
+% \setsansfont{Figtree-Medium}[
+%     Path=./FigtreeFonts/,
+%     Extension = .ttf,
+%     UprightFont=Figtree-Medium,
+%     BoldFont=Figtree-Bold,
+%     ItalicFont=Figtree-Medium-Italic,
+%     BoldItalicFont=Figtree-BoldItalic
+% ]
+%-----------------------------------------------------------------------
+
 % In case a semi-bold font is explicity required
 % \newfontfamily\semibf[
 %     Path=./FigtreeFonts/,

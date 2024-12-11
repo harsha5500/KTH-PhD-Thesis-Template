@@ -4,6 +4,9 @@ pdf_delete = *.aux *.bbl *.toc *.acn *.bcf *.blg *.ist *.glo *.log *.run.xml
 # Make the thesis
 all:
 	@xelatex main.tex
+	@biber main
+	@xelatex main.tex
+	@xelatex main.tex
 
 # Remove all the generated files
 clean:
@@ -11,5 +14,8 @@ clean:
 
 # Creaate only a PDF file
 pdf: 
+	@xelatex main.tex
+	@biber main
+	@xelatex main.tex
 	@xelatex main.tex
 	@rm -f $(pdf_delete)

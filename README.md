@@ -14,7 +14,8 @@ Georgia Pro and FigTree are the fonts suggested for use in the official design g
 2. [Arimo for FigTree](https://tug.org/FontCatalogue/arimo/)
 
 ```main.tex``` still retains the code to include the licensed font as well. Please comment the substitution line and uncomment the declarations for fonts with the correct names and locations.
-
+1. Create a folder called "GeorgiaProFonts" and copy all the TTF files there. Ensure the fonts are named "GeorgiaProFonts-variation"
+2. Create a folder called "FigtreeFonts"  and copy all the TTF files there. Ensure the fonts are named "FigtreeFonts-variation"
 
 ## Usage
 

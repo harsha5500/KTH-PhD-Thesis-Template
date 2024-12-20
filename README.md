@@ -37,6 +37,7 @@ Georgia Pro and FigTree are the fonts suggested for use in the official design g
 - 2024-10-28: First version uploaded to github.
 - 2024-12-10: Added a Makefile.
 - 2024-12-11: Modified the makefile with better compilation steps. Added open font alternatives. 
+- 2024-12-20: Fixed a issue for showing Roman numerals in front matter pages. 
 
 ## Todo
 1. Test for working with miktex and texlive in Linux, Macos and Windows.
